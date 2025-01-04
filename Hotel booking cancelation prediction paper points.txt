@@ -1,0 +1,62 @@
+Hotel booking cancelation prediction using tree based models
+
+Abstract
+Booking cancellation every year causes diminising revenue for the hotels/service industry. to combat this forcasting number of cancellation during different season based on data help mitigate this issue. implimenting tree based machine learning algoritham to make predictions. also by learning and tuning the hyperparameter like depth and number of trees, which affect these prediction help improve the confidence of the model.
+
+Introductions
+
+Dataset
+The data was taken from the website kaggle. it contains 19 features and 36275 bookings for the years 2017 and 2018. other than the lead time feature all the features are categorical.
+
+	Data Preprocessing
+		Before the data can be used it needs to be cheaked and cleaned so that the machine learning model can perform well. the following step have been done on the dataset
+Removing entries with NaN
+Removing duplicate entries
+Removing outliers
+
+
+
+Exploratory data analysis
+
+Prediction Models
+	Decision Tree
+	Random forest
+	Random forest using sklearn decision tree 
+
+learning
+	effect of one hot encoding on random forest
+	Feature scaling
+	polynomial feature
+	ideal number of trees
+	Effect of depth of trees
+	parameter tuning
+	
+Conclusion
+
+Acknowledgment
+
+Reference
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.22]{Market_Segment_histogram.png}
+\caption{Market histogram}
+\label{dataset}
+\end{figure}
+
+\vspace{1cm}
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.22]{Arrival month histogram.png}
+\caption{Arrival month histogram}
+\label{dataset}
+\end{figure}
+\vspace{1cm}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.22]{Number of week nights.png}
+\caption{Number of week nights histogram}
+\label{dataset}
+\end{figure}
